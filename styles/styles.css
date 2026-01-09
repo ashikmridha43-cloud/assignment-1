@@ -9,6 +9,11 @@
 }
 
 /* sheard styles */
+.btn:hover{
+    background-color: #00c1f1b4;
+    color: #000000;
+}
+
 .btn{
     text-align: center;
     padding: 12px 16px;
@@ -57,6 +62,10 @@ nav li a{
     max-width: 800px;
     margin: 0 auto;
     padding: 110px 50px 180px;
+}
+.banner-content .btn-2:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 .banner-content .btn-2{
     text-align: center;
@@ -207,11 +216,12 @@ nav li a{
         background-color: #001931;
         margin-top: 120px;
         padding: 120px;
+        padding-bottom: 0px;
         color: #ffffff;
         text-align: center;
 }
 #footer-container{
-    
+    padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -229,5 +239,11 @@ nav li a{
     margin: 0 ;
     cursor: pointer;
 }
-#footer-container .copyright{
+#footer-container .social div i:hover{
+    background-color: #00f7ff;
+    color: #000000;
+}
+footer hr{
+    color: #201e1e;
+    margin-bottom: 30px;
 }
