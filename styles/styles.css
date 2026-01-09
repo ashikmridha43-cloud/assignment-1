@@ -8,7 +8,7 @@
     font-optical-sizing: auto;
 }
 
-/* sheard styles */
+
 .btn:hover{
     background-color: #00c1f1b4;
     color: #000000;
@@ -26,7 +26,7 @@
 }
 
 
-/* navigation styles */
+
 nav{
     width: 82%;
     max-width: 1516px;
@@ -48,7 +48,7 @@ nav li a{
     text-decoration: none;
     color: #000000;
 }
-/* header styles */
+
 #banner{
     margin-top: 0;
     text-align: center;
@@ -97,7 +97,7 @@ nav li a{
     margin-bottom: 32px;
     line-height: 1.5;
 }
-/* main section styles */
+
 
 .container{
     width: 82%;
@@ -155,7 +155,7 @@ nav li a{
     margin-top: 12px;
     
 }
-/* solution section styles */
+
 #solution{
     display: flex;
     align-items: left;
@@ -184,15 +184,13 @@ nav li a{
 #solution .solution-content .solved{
     margin-bottom: 10px;
 }
-/* section 3 styles */
+
 #thinking{
     background-color: #f9f9f9;
     padding: 80px 0;
     margin-top: 120px;
 }
-#thinking .think-content{
-    
-}
+
 #thinking .think-content h2{
     font-size: 40px;
     font-weight: 700;
@@ -211,7 +209,7 @@ nav li a{
     color: #4f4f4f;
     margin: 10px 0;
 }
-/* footer styles */
+
 .footer{
         background-color: #001931;
         margin-top: 120px;
