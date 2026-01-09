@@ -88,3 +88,94 @@ nav li a{
     margin-bottom: 32px;
     line-height: 1.5;
 }
+/* main section styles */
+
+.container{
+    width: 82%;
+    max-width: 1516px;
+    margin: 14px auto 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#notes .notes-title{
+    padding-top: 50px;
+}
+#notes .notes-title h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #001931;
+}
+#notes .notes-title p{
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+#notes .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 100px;
+    
+}
+.notes-card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(7, 7, 7, 0.1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#notes .notes-card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 15px;
+}
+#notes .notes-card h4{
+    padding-top: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #001931;
+}
+#notes .notes-card p{
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-top: 12px;
+    
+}
+/* solution section styles */
+#solution{
+    display: flex;
+    align-items: left;
+}
+#solution .solution-content{
+    text-align: left;
+    padding: 120px 50px;
+    max-width: 600px;
+}
+#solution .solution-content .green{
+    color: #1c8f65;
+    margin-bottom: 16px;
+}
+#solution .solution-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+#solution .solution-content .solution-details{
+    font-size: 14px;
+    color: #4f4f4f;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+#solution .solution-content .solved{
+    margin-bottom: 10px;
+}
+/* section 3 styles */
+#thinking{
+    background-color: #635d48;
+}
